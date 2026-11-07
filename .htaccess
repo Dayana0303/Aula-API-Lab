@@ -1,0 +1,6 @@
+# Si desplegás en Apache con la raíz del proyecto como DocumentRoot,
+# esto evita que se pueda descargar el .env y el código fuente privado.
+<FilesMatch "^\.env">
+    Require all denied
+</FilesMatch>
+RedirectMatch 404 ^/(config|src|tests|docs)/
