@@ -54,10 +54,6 @@ Requisitos: PHP 8.1 o superior con las extensiones `curl` y `mbstring`.
 ```bash
 git clone https://github.com/Dayana0303/Aula-API-Lab.git
 cd aula-api-lab-tienda
-cp .env.example .env          # en Windows: copy .env.example .env
-# editá .env y pegá tu API key (lab_...)
-php -S localhost:8000 -t public
-```
 
 Abrí <http://localhost:8000>. Si la API key falta, la página muestra un aviso.
 
