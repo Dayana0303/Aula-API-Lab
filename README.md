@@ -52,7 +52,7 @@ Aula API Lab  https://darkred-rook-511555.hostingersite.com/api/v1
 Requisitos: PHP 8.1 o superior con las extensiones `curl` y `mbstring`.
 
 ```bash
-git clone <URL-DE-TU-REPO>
+git clone https://github.com/Dayana0303/Aula-API-Lab.git
 cd aula-api-lab-tienda
 cp .env.example .env          # en Windows: copy .env.example .env
 # editá .env y pegá tu API key (lab_...)
