@@ -126,7 +126,3 @@ try {
 ```
 
 Si tu app es JavaScript/otro lenguaje, podés dejar esta tienda corriendo como backend y llamar a sus rutas `api/*.php`.
-
-## Seguridad
-
-No subas `.env` ni tu API key a GitHub. Si se filtra, renovála en el portal: la anterior deja de funcionar al instante.
